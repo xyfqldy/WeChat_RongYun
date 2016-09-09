@@ -1,0 +1,6 @@
+framework module PathCover {
+  umbrella header "PathCover-umbrella.h"
+
+  export *
+  module * { export * }
+}

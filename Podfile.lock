@@ -1,0 +1,42 @@
+PODS:
+  - AVOSCloud (3.3.5)
+  - JSAnimatedImagesView (1.0.0):
+    - MSWeakTimer (~> 1.0)
+  - KxMenu (1)
+  - LTNavigationBar (2.1.6)
+  - MSWeakTimer (1.1.0)
+  - PathCover (0.1.2)
+  - pop (1.0.9)
+  - PopMenu (2.4):
+    - pop
+    - XHRealTimeBlur
+  - RongCloudIMKit (2.7.1)
+  - Validator (1.2.0)
+  - XHRealTimeBlur (1.7)
+
+DEPENDENCIES:
+  - AVOSCloud
+  - JSAnimatedImagesView
+  - KxMenu
+  - LTNavigationBar
+  - PathCover
+  - PopMenu
+  - RongCloudIMKit
+  - Validator
+
+SPEC CHECKSUMS:
+  AVOSCloud: 1fe170768bee7e05bc3ea86e38d5bddb105cb957
+  JSAnimatedImagesView: d5c5f561280171ce13f1f08ba9834c47a1f27bfc
+  KxMenu: c025365712f55fa99feb7830fbb7dea0e912be72
+  LTNavigationBar: 9ef51488bf289b1f65dbcb17ac92888c4ae23e30
+  MSWeakTimer: 9426150f933b80ed3acf3f6d228e4b61f0e303c8
+  PathCover: 2cea41d7c2a315d72827a35e984ba65b67c1eafc
+  pop: f667631a5108a2e60d9e8797c9b32ddaf2080bce
+  PopMenu: 26b97baeaf250070f4f61b93727ca86d127d7bc5
+  RongCloudIMKit: a425b9dbe4d3f05290dd8c0fdcfda1c98a05aac5
+  Validator: 4015c0fcaacd165100b337dc4198ba308fb567fb
+  XHRealTimeBlur: 661fadd5691ba2d349758e8fd5fbdb499ac55f8c
+
+PODFILE CHECKSUM: 30cc3e22cbab169f821edcc461142f3a409bc668
+
+COCOAPODS: 1.0.1

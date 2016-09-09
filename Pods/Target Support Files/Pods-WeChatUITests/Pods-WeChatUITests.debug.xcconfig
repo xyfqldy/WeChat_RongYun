@@ -1,0 +1,8 @@
+FRAMEWORK_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/JSAnimatedImagesView" "$PODS_CONFIGURATION_BUILD_DIR/KxMenu" "$PODS_CONFIGURATION_BUILD_DIR/LTNavigationBar" "$PODS_CONFIGURATION_BUILD_DIR/MSWeakTimer" "$PODS_CONFIGURATION_BUILD_DIR/PathCover" "$PODS_CONFIGURATION_BUILD_DIR/PopMenu" "$PODS_CONFIGURATION_BUILD_DIR/Validator" "$PODS_CONFIGURATION_BUILD_DIR/XHRealTimeBlur" "$PODS_CONFIGURATION_BUILD_DIR/pop"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AVOSCloud" "${PODS_ROOT}/Headers/Public/RongCloudIMKit"
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+OTHER_CFLAGS = $(inherited) -iquote "$PODS_CONFIGURATION_BUILD_DIR/JSAnimatedImagesView/JSAnimatedImagesView.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/KxMenu/KxMenu.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/LTNavigationBar/LTNavigationBar.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/MSWeakTimer/MSWeakTimer.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/PathCover/PathCover.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/PopMenu/PopMenu.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/Validator/Validator.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/XHRealTimeBlur/XHRealTimeBlur.framework/Headers" -iquote "$PODS_CONFIGURATION_BUILD_DIR/pop/pop.framework/Headers" -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/AVOSCloud" -isystem "${PODS_ROOT}/Headers/Public/RongCloudIMKit"
+PODS_BUILD_DIR = $BUILD_DIR
+PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_ROOT = ${SRCROOT}/Pods
