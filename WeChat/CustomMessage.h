@@ -11,5 +11,5 @@
 
 @interface CustomMessage :RCMessageContent<RCMessageCoding,RCMessagePersistentCompatible,RCMessageContentView>
 @property (nonatomic,copy)NSString *name;
-
++(instancetype)messageWithContent:(NSString *)content;
 @end

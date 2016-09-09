@@ -20,3 +20,4 @@
 
 
 #import "CustomMessage.h"
+#import "CustomMessageCell.h"

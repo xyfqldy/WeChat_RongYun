@@ -72,6 +72,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate,RCIMUserInfoDataSource {
 
         //获取leanCloud授权
         AVOSCloud.setApplicationId("hHKkT2O7HSK5AQXzHgHTgbz4-gzGzoHsz", clientKey: "ilKd2LhsrCdTV9pkBLK8E0GC")
+        //注册自定义消息
+        RCIM.sharedRCIM().registerMessageType(CustomMessage.superclass())
+            
         return true
     }
 

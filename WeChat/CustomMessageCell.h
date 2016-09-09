@@ -8,6 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-@interface CustomMessageCell : NSObject
+@interface CustomMessageCell : RCMessageCell
 
 @end

@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		520089631D825EB200EBB4C6 /* CustomMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 520089621D825EB200EBB4C6 /* CustomMessage.m */; };
 		520089661D825EC300EBB4C6 /* CustomMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 520089651D825EC300EBB4C6 /* CustomMessageCell.m */; };
+		520089691D82767D00EBB4C6 /* CustomMessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 520089681D82767D00EBB4C6 /* CustomMessageCell.xib */; };
 		52216FD11D7BF36300446382 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52216FD01D7BF36300446382 /* LoginViewController.swift */; };
 		52216FD41D7BF5E700446382 /* RoundImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52216FD31D7BF5E700446382 /* RoundImageView.swift */; };
 		522638971D788D0600E6DB37 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522638961D788D0600E6DB37 /* AppDelegate.swift */; };
@@ -61,6 +62,7 @@
 		520089641D825EC300EBB4C6 /* CustomMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomMessageCell.h; sourceTree = "<group>"; };
 		520089651D825EC300EBB4C6 /* CustomMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomMessageCell.m; sourceTree = "<group>"; };
 		520089671D8260A400EBB4C6 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		520089681D82767D00EBB4C6 /* CustomMessageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomMessageCell.xib; sourceTree = "<group>"; };
 		52216FD01D7BF36300446382 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		52216FD31D7BF5E700446382 /* RoundImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundImageView.swift; sourceTree = "<group>"; };
 		522638931D788D0600E6DB37 /* WeChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -184,6 +186,7 @@
 				520089621D825EB200EBB4C6 /* CustomMessage.m */,
 				520089641D825EC300EBB4C6 /* CustomMessageCell.h */,
 				520089651D825EC300EBB4C6 /* CustomMessageCell.m */,
+				520089681D82767D00EBB4C6 /* CustomMessageCell.xib */,
 			);
 			path = WeChat;
 			sourceTree = "<group>";
@@ -397,6 +400,7 @@
 				5234570F1D7A4AEC003800F7 /* About.storyboard in Resources */,
 				523457081D7A49DD003800F7 /* Conversation.storyboard in Resources */,
 				5226389E1D788D0600E6DB37 /* Assets.xcassets in Resources */,
+				520089691D82767D00EBB4C6 /* CustomMessageCell.xib in Resources */,
 				5226389C1D788D0600E6DB37 /* Main.storyboard in Resources */,
 				5234570D1D7A4ACB003800F7 /* Serve.storyboard in Resources */,
 				5234570A1D7A4AB5003800F7 /* Contact.storyboard in Resources */,

@@ -9,6 +9,11 @@
 #import "CustomMessage.h"
 
 @implementation CustomMessage
++(instancetype)messageWithContent:(NSString *)content{
+    CustomMessage *message =[[CustomMessage alloc]init];
+    message.name = content;
+    return message;
+}
 -(NSData *)encode{
     NSMutableDictionary *dict = [NSMutableDictionary dictionary];
     [dict setValue:self.name forKey:@"name"];
